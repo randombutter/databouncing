@@ -1,0 +1,30 @@
+----------
+DNS REQUEST
+----------
+
+;; opcode: QUERY, status: NOERROR, id: 2615
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;host.login5.skole.hr.alita.j1h706870hj.jxabrpwjmjbfukseydajy5w6hndqr6pjo.oast.fun.	IN	 A
+
+----------
+DNS RESPONSE
+----------
+
+;; opcode: QUERY, status: NOERROR, id: 2615
+;; flags: qr aa; QUERY: 1, ANSWER: 1, AUTHORITY: 2, ADDITIONAL: 2
+
+;; QUESTION SECTION:
+;host.login5.skole.hr.alita.j1h706870hj.jxabrpwjmjbfukseydajy5w6hndqr6pjo.oast.fun.	IN	 A
+
+;; ANSWER SECTION:
+host.login5.skole.hr.alita.j1h706870hj.jxabrpwjmjbfukseydajy5w6hndqr6pjo.oast.fun.	3600	IN	A	206.189.156.69
+
+;; AUTHORITY SECTION:
+host.login5.skole.hr.alita.j1h706870hj.jxabrpwjmjbfukseydajy5w6hndqr6pjo.oast.fun.	3600	IN	NS	ns1.oast.fun.
+host.login5.skole.hr.alita.j1h706870hj.jxabrpwjmjbfukseydajy5w6hndqr6pjo.oast.fun.	3600	IN	NS	ns2.oast.fun.
+
+;; ADDITIONAL SECTION:
+ns1.oast.fun.	3600	IN	A	206.189.156.69
+ns2.oast.fun.	3600	IN	A	206.189.156.69
